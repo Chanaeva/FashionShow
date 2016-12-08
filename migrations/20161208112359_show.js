@@ -4,6 +4,9 @@ exports.up = function(knex, Promise) {
    table.increments();
    table.date('date');
    table.string('location');
+   table.string('designer');
+   table.string('model');
+
  })
 };
 
